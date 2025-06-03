@@ -12,7 +12,8 @@ nav{
 }
 header div{
     background-color: #848b8b;
-    color: white;
+    color: black
+        ;
 }
 header div{
     display: flex;
