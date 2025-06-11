@@ -86,7 +86,7 @@ footer{
      z-index: 1;
 }
 
-.cvdiv .centreInteret .competence .contact .formation .langue .projetdeF .qualite .stage{
+.centreInteret, .competence, .contact, .formation, .langue, .projetdeF, .qualite, .stage{
     transition: transform .1s;
 }
 
@@ -171,3 +171,145 @@ footer{
 }
 
 
+.mesProjet div  article{
+    display: flex;
+    flex-direction: row;
+
+}
+.mesProjet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.snake {
+    font-family: Arial, sans-serif;
+      background: #848b8b;
+      color: #333;
+      padding: 20px;
+      margin: 4em;
+      border-radius: 5%;
+    }
+    .container {
+        max-width: 900px;
+        margin: auto;
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        border-radius: 10px;
+    }
+    h1 {
+      text-align: center;
+      color: #444;
+    }
+    .star-section {
+      margin: 20px 0;
+    }
+    .star-title {
+      font-size: 1.4em;
+      margin-bottom: 5px;
+      color: black;
+    }
+    .star-content {
+      background: #D9D9D9;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    .screenshots {
+      margin-top: 30px;
+
+    }
+    .screenshots img {
+      width: 100%;
+      max-width: 400px;
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+.mesProjet .titre2{
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    width: 30%;
+}
+.mesProjet .titre{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    margin-bottom: -3em;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+    background-color: #fffa;
+  }
+  50% {
+    transform: scale(1.05);
+    background-color: #ff0a;
+  }
+  100% {
+    transform: scale(1);
+    background-color: transparent;
+  }
+}
+
+.animate-zoom {
+  animation: zoomIn 1s ease;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video img{
+    width: 30%;
+}
+
+.sql{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-retour {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #848b8b;
+    color: white;
+    font-size: 2em;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    z-index: 100;
+}
+
+.btn-retour:hover {
+    transform: scale(1.2);
+    background-color: #666;
+}
+.bouton-cv {
+    display: inline-block;
+    background-color: #848b8b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin: 2em 0;
+}
+
+.bouton-cv:hover {
+    background-color: #666;
+}
